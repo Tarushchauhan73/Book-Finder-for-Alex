@@ -1,0 +1,12 @@
+Key Features:
+Search: by title, author, subject, ISBN, or all.
+Filters: language, year range, favorites.
+Sorting: relevance, year (asc/desc), editions.
+Pagination: customizable results per page.
+Favorites: toggle, persist in localStorage, filter to show only favorites.
+Debounced Input: reduces unnecessary API calls.
+Details Modal: shows description, subjects, top editions.
+Keyboard Shortcuts: / to focus search, f to toggle favorites.
+UI: Responsive grid layout, cover images, Tailwind CSS styling.
+Data Flow:
+Search term → Build API query → Fetch results → Client-side filtering/sorting → Display results → Modal shows detailed info.
